@@ -1,0 +1,14 @@
+name: Student Email Action
+
+# This tells the robot to wake up whenever you 'push' code
+on: [push]
+
+jobs:
+  test:
+    # This is the computer system the robot will use
+    runs-on: ubuntu-latest
+    
+    # These are the actual chores
+    steps:
+      - name: 22f2001107@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
